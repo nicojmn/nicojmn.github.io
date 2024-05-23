@@ -11,7 +11,7 @@ jobs:
 
     steps:
 
-    -name: test
+    - name: test
       run: |
         echo "Hello World"
         echo $PWD
