@@ -11,6 +11,11 @@ jobs:
 
     steps:
 
+    -name: test
+      run: |
+        echo "Hello World"
+        echo $PWD
+
     - name: Setup Node.js environment
       uses: actions/setup-node@v2
       with:
