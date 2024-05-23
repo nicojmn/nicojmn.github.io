@@ -14,10 +14,10 @@ jobs:
     - name: Setup Node.js environment
       uses: actions/setup-node@v2
       with:
-        node-version: 14
+        node-version: 22
 
     - name: Install dependencies
-      run: npm install
+      run: npm ci
 
     - name: Run gh-pages script
       run: npm run gh-pages
