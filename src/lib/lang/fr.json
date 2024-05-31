@@ -1,0 +1,11 @@
+{
+	"tabs": {
+		"home": "Accueil",
+		"resume": "CV",
+        "projects": "Projets"
+	},
+
+	"language": "Langue",
+    "select-lang": "Sélectionnez votre langue",
+    "under-construction": "Cette page est en cours de construction"
+}
