@@ -1,0 +1,1 @@
+const e={home:"Inicio",resume:"Currículum",projects:"Proyectos"},n="Lengua",s={tabs:e,language:n,"select-lang":"Seleccione su idioma","under-cons":"Página está en construcción"};export{s as default,n as language,e as tabs};
