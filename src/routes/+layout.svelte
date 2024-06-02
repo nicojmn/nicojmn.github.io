@@ -1,7 +1,9 @@
 <script lang="ts">
     import "/src/app.css"
-    import { t, loadTranslations } from "$lib/lang/translation";
+    import { t, loadTranslations} from "$lib/lang/translation";
     import UnderConstruction from "$lib/components/UnderConstruction.svelte";
+
+    import { theme } from "$lib/theme/theme";
 
     function switchTranslation(lang: string) {
         loadTranslations(lang);
@@ -10,6 +12,10 @@
     }
 
 </script>
+
+<svelte:head>
+    <title>NJ - Home</title>
+</svelte:head>
 
 <UnderConstruction />
 
@@ -33,6 +39,20 @@
                 </form>
         </dialog>
     </div>
+    <div role="tab" class="tab">
+        <label class="swap swap-rotate">
+            <input type="checkbox" value="light" class="theme-controller"/>
+
+            <img src={theme.light_icon} alt="light theme icon" class="swap-off w-14 h-5/6 object-contain"/>
+            <img src={theme.dark_icon} alt="dark theme icon" class="swap-on w-14 h-5/6 object-contain"/>
+        </label>
+    </div>
 </div>
+
+<style>
+    label {
+        height: 85%;
+    }
+</style>
 
 <slot />
