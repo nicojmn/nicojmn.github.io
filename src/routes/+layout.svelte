@@ -1,5 +1,6 @@
 <script lang="ts">
     import "/src/app.css"
+    import favicon from "$lib/img/favicon.png";
     import { t, loadTranslations} from "$lib/lang/translation";
     import UnderConstruction from "$lib/components/UnderConstruction.svelte";
 
@@ -14,11 +15,14 @@
 
 </script>
 
-<svelte:head>
-    <title>NJ - Home</title>
-</svelte:head>
+<sveltekit:head>
+    <title>Nicolas Jeanmenne</title>
+    <link rel="icon" type="image/png" href={favicon} />
+</sveltekit:head>
 
 <UnderConstruction />
+
+
 
 <div role="tablist" class="tabs tabs-bordered">
     <a role="tab" href="/" class="tab tab-active">{$t("tabs.home")}</a>
