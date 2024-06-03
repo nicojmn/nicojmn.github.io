@@ -1,0 +1,1 @@
+const e={home:"Home",resume:"Resume",projects:"Projects"},a="Language",s={code:"Website source code is delivered under the free",license:"BSD 3-Clause License",available:"and available here"},n={tabs:e,language:a,"select-lang":"Select Language","under-construction":"This page is under construction",footer:s};export{n as default,s as footer,a as language,e as tabs};

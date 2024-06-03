@@ -1,1 +1,0 @@
-const e={home:"Home",resume:"Resume",projects:"Projects"},n="Language",s={tabs:e,language:n,"select-lang":"Select Language","under-construction":"This page is under construction"};export{s as default,n as language,e as tabs};

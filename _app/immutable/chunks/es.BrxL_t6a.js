@@ -1,1 +1,0 @@
-const e={home:"Inicio",resume:"Currículum",projects:"Proyectos"},n="Lengua",c={tabs:e,language:n,"select-lang":"Seleccione su idioma","under-construction":"Página está en construcción"};export{c as default,n as language,e as tabs};
