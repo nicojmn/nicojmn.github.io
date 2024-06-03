@@ -80,7 +80,7 @@
     </nav> 
     <aside>
         <p>
-            Website source code is under <a href="https://opensource.org/license/bsd-3-clause" class="link">free BDS-License</a> 
+            Website source code is under the free <a href="https://opensource.org/license/bsd-3-clause" class="link">BSD-3-Clauses License</a> 
             and availaible <a href="https://github.com/nicojmn:nicojmn.github.io" class="link">here</a>.
         </p>
     </aside>
