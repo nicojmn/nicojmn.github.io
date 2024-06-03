@@ -5,10 +5,11 @@
 
     import { theme } from "$lib/theme/theme";
 
+    let languageModal: HTMLDialogElement | null;
+
     function switchTranslation(lang: string) {
         loadTranslations(lang);
-        let modBox = document.getElementById("language-modal");
-        modBox?.close() as HTMLElement;
+        languageModal?.close();
     }
 
 </script>
@@ -24,8 +25,8 @@
     <a role="tab" href="#" class="tab">{$t("tabs.resume")}</a>
     <a role="tab" href="#" class="tab">{$t("tabs.projects")}</a>
     <div role="tab" class="tab">
-        <button on:click={() => document.getElementById("language-modal")?.showModal()}>{$t("language")}</button>
-        <dialog id="language-modal" class="modal">
+        <button on:click={() => languageModal?.showModal()}>{$t("language")}</button>
+        <dialog bind:this={languageModal} class="modal">
                 <div class="modal-box">
                     <h3 class="text-2x1">{$t("select-lang")}</h3>
                     <div class="join join-vertical">
