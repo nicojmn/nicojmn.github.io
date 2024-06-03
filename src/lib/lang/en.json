@@ -6,5 +6,10 @@
     },
     "language": "Language",
     "select-lang": "Select Language",
-    "under-construction": "This page is under construction"
+    "under-construction": "This page is under construction",
+    "footer": {
+        "code": "Website source code is delivered under the free",
+        "license": "BSD 3-Clause License",
+        "available":"and available here"
+    }
 }

@@ -6,5 +6,10 @@
     },
     "language": "Lengua",
     "select-lang": "Seleccione su idioma",
-    "under-construction": "Página está en construcción"
+    "under-construction": "Página está en construcción",
+    "footer": {
+        "code": "El código del sitio web se entrega bajo la libre",
+        "license": "Licencia BSD de 3 cláusulas",
+        "available":"y disponible aquí"
+    }
 }

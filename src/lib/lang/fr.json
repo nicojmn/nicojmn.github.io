@@ -7,5 +7,10 @@
 
 	"language": "Langue",
     "select-lang": "Sélectionnez votre langue",
-    "under-construction": "Cette page est en cours de construction"
+    "under-construction": "Cette page est en cours de construction",
+	"footer": {
+        "code": "Le code source de ce site est sous license libre",
+        "license": "BSD 3-Clause",
+        "available":"et disponible ici"
+    }
 }
